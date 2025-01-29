@@ -5,3 +5,8 @@ body {
 #root {
     height: 100%;
 }
+
+.table-container {
+    max-height: 200px;
+    overflow-y: auto;
+}

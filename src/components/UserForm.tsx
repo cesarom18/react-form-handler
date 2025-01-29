@@ -7,7 +7,7 @@ import {
 import { Button } from "./Button";
 import { Input } from "./Input";
 
-type UserFormState = {
+export type UserFormState = {
     name: string,
     username: string
 }
@@ -39,7 +39,6 @@ export const UserForm = ({ handleSubmit }: UserFormProps) => {
 
     return (
         <>
-
             <Input
                 label="Name"
                 name="name"
@@ -52,7 +51,7 @@ export const UserForm = ({ handleSubmit }: UserFormProps) => {
                 placeholder="Username"
                 value={form.username}
                 handleChange={handleChange} />
-            <Button handleClick={handleClick}>Send</Button>
+            <Button handleClick={handleClick}>Add</Button>
         </>
     )
 }
