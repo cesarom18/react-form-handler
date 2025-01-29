@@ -1,0 +1,4 @@
+# Tecnologias
+- React
+- TypeScript
+- BulmaCSS
