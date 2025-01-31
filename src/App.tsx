@@ -22,7 +22,7 @@ export const App = () => {
     return (
         <div className="hero is-fullheight">
             <div className="hero-body is-flex is-justify-content-center is-align-items-center is-flex-direction-column">
-                <h1 className="title">React Form Handler</h1>
+                <h1 className="title">Simple User Form</h1>
                 <div className="table-container">
                     <table className="table is-striped is-fullwidth">
                         <thead>
